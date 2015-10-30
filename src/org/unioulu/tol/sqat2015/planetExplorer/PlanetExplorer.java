@@ -43,8 +43,7 @@ public class PlanetExplorer {
 					positionx++;
 				}
 				
-			}
-			if(SingleCommand == 'b'){
+			}else if(SingleCommand == 'b'){
 				if(getFacing() == 'N' || getFacing() == 'S' ){
 					positiony--;
 				}
