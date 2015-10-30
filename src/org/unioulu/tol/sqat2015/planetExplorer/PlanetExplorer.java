@@ -38,6 +38,9 @@ public class PlanetExplorer {
 				if(getFacing() == 'N' || getFacing() == 'S' ){
 					positiony++;
 				}
+				if(getFacing() == 'W' || getFacing() == 'E' ){
+					positionx++;
+				}
 			}
 		}
 		
