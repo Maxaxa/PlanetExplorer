@@ -316,3 +316,8 @@ EditAction 1446218486990 PlanetExplorer.java 2910 8 15 0
 UnitTestCaseAction 1446218488119 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446218488120 TestPlanetExplorer OK
 EditAction 1446218518707 PlanetExplorer.java 2916 8 15 0
+RefactoringAction 1446218532180 TestPlanetExplorer.java ADD void testMove_ForwardForwardForward_Return0_0()/2 METHOD
+RefactoringAction 1446218539224 TestPlanetExplorer.java RENAME testMove_ForwardForwardForward_Return0_0()/2=>void testMove_b_Return0_0() METHOD
+RefactoringAction 1446218542452 TestPlanetExplorer.java RENAME testMove_b_Return0_0()=>void testMove_Back_Return0_0() METHOD
+RefactoringAction 1446218544978 TestPlanetExplorer.java RENAME testMove_Back_Return0_0()=>void testMove_Backward_Return0_0() METHOD
+EditAction 1446218551579 TestPlanetExplorer.java 2339 12 33 11
