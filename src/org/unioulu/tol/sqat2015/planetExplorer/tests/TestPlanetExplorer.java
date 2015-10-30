@@ -75,7 +75,7 @@ public class TestPlanetExplorer {
 		assertEquals("0,0", position);
 	}
 	@Test
-	public void testMove_Backward_Return0_0(){
+	public void testMove_Backward_Return0_0(){//not completed
 		explorerNoObs.executeCommand("b");
 		String position = explorerNoObs.getPosition();
 		assertEquals("0,0", position);
