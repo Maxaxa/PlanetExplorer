@@ -28,7 +28,9 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void testTurn_Right_ReturnW(){
-		false;
+		explorerNoObs.executeCommand("r");
+		char facing = explorerNoObs.getFacing();
+		assertEquals('W', facing);
 	}
 	
 }
