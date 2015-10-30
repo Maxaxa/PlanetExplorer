@@ -58,7 +58,7 @@ public class PlanetExplorer {
 		if(SingleCommand == 'f'){
 			if(getFacing() == 'N' || getFacing() == 'S' ){
 				positiony++;
-				if(positiony> getX()){
+				if(positiony < getX()){
 					positiony = 0;
 				}
 			}

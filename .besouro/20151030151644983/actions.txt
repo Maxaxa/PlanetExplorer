@@ -291,3 +291,6 @@ UnitTestSessionAction 1446217989665 TestPlanetExplorer FAIL
 RefactoringAction 1446218019977 PlanetExplorer.java ADD int getX() METHOD
 RefactoringAction 1446218019978 PlanetExplorer.java ADD int getY() METHOD
 EditAction 1446218042593 PlanetExplorer.java 2907 8 15 0
+UnitTestCaseAction 1446218043513 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446218043514 TestPlanetExplorer FAIL
+EditAction 1446218163003 PlanetExplorer.java 2908 8 15 0
