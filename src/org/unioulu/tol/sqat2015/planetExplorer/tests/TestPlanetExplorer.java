@@ -34,7 +34,7 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void testTurn_Left_ReturnE(){
-		explorerNoObs.executeCommand("r");
+		explorerNoObs.executeCommand("l");
 		char facing = explorerNoObs.getFacing();
 		assertEquals('E', facing);
 	}
