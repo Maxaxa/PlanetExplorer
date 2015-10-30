@@ -33,6 +33,6 @@ public class PlanetExplorer {
 
 	public String getPosition() {
 		String position = positionx + "," + positiony;
-		return null;
+		return position;
 	}
 }
