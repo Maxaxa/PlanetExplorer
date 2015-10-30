@@ -33,7 +33,7 @@ public class PlanetExplorer {
 			facing = facing+1;
 			
 		}else if (command == "l"){
-			facing%4 = (facing-1)%4;
+			facing = ((-1)%4);
 			System.out.println(facing);
 		}
 		
