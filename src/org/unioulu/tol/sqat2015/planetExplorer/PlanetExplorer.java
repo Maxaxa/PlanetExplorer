@@ -5,7 +5,11 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	int[][] grid;
+	int x;
+	int y;
 	public PlanetExplorer(int x, int y, String obstacles){
+		x = this.x;
+		y = this.y;
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -46,6 +50,7 @@ public class PlanetExplorer {
 		if(SingleCommand == 'f'){
 			if(getFacing() == 'N' || getFacing() == 'S' ){
 				positiony++;
+				if(positiony> explorer.x)
 			}
 			if(getFacing() == 'W' || getFacing() == 'E' ){
 				positionx++;
