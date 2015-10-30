@@ -18,6 +18,14 @@ public class PlanetExplorer {
 	 */
 		grid = new int[x][y];
 	}
+	public int getX() {
+		return x;
+	}
+
+
+	public int getY() {
+		return y;
+	}
 	int positionx;
 	int positiony;
 	int facing;
@@ -50,7 +58,7 @@ public class PlanetExplorer {
 		if(SingleCommand == 'f'){
 			if(getFacing() == 'N' || getFacing() == 'S' ){
 				positiony++;
-				if(positiony> x){
+				if(positiony> getX()){
 					positiony = 0;
 				}
 			}
