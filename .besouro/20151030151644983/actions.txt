@@ -55,3 +55,4 @@ RefactoringAction 1446213126847 TestPlanetExplorer.java RENAME testGetFacingStar
 RefactoringAction 1446213128377 TestPlanetExplorer.java RENAME testGetFacingStartingPosition_return=>void testGetFacingStartingPosition_returnN FIELD
 RefactoringAction 1446213335367 PlanetExplorer.java ADD char getFacing() METHOD
 EditAction 1446213337331 PlanetExplorer.java 1614 4 5 0
+EditAction 1446213339904 TestPlanetExplorer.java 637 2 6 2
