@@ -159,3 +159,7 @@ EditAction 1446215239324 PlanetExplorer.java 1971 4 8 0
 UnitTestCaseAction 1446215240608 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1446215240609 TestPlanetExplorer FAIL
 EditAction 1446215440793 PlanetExplorer.java 2024 4 8 0
+UnitTestCaseAction 1446215444380 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446215444381 TestPlanetExplorer OK
+RefactoringAction 1446215496341 PlanetExplorer.java ADD void turn(String) METHOD
+EditAction 1446215585660 PlanetExplorer.java 2100 5 9 0
