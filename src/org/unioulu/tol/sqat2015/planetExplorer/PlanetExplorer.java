@@ -8,8 +8,8 @@ public class PlanetExplorer {
 	int x;
 	int y;
 	public PlanetExplorer(int x, int y, String obstacles){
-		x = this.x;
-		y = this.y;
+		this.x = x;
+		this.y = y;
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
