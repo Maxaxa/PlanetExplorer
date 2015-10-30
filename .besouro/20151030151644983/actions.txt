@@ -254,3 +254,11 @@ UnitTestSessionAction 1446217363429 TestPlanetExplorer OK
 RefactoringAction 1446217380221 PlanetExplorer.java ADD void move(char) METHOD
 EditAction 1446217380225 PlanetExplorer.java 2668 6 11 0
 EditAction 1446217422086 PlanetExplorer.java 2721 6 11 0
+UnitTestCaseAction 1446217425996 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446217425998 TestPlanetExplorer OK
+RefactoringAction 1446217454513 TestPlanetExplorer.java ADD void testMove_ForwardForwardBackward_Return0_1()/2 METHOD
+RefactoringAction 1446217460123 TestPlanetExplorer.java RENAME testMove_ForwardForwardBackward_Return0_1()/2=>void testMove_ForwardForwardForward_Return0_1() METHOD
+RefactoringAction 1446217463654 TestPlanetExplorer.java RENAME testMove_ForwardForwardForward_Return0_1()=>void testMove_ForwardForwardForwardForward_Return0_1() METHOD
+RefactoringAction 1446217469185 TestPlanetExplorer.java RENAME testMove_ForwardForwardForwardForward_Return0_1()=>void testMove_ForwardForwardForwardForward_Return0_0() METHOD
+RefactoringAction 1446217507290 TestPlanetExplorer.java RENAME testMove_ForwardForwardForwardForward_Return0_0()=>void testMove_ForwardForwardForward_Return0_0() METHOD
+EditAction 1446217521859 TestPlanetExplorer.java 2158 11 30 10
