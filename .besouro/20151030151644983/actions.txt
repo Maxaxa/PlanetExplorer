@@ -211,3 +211,5 @@ EditAction 1446216858171 PlanetExplorer.java 2324 5 10 0
 UnitTestCaseAction 1446216859132 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446216859133 TestPlanetExplorer OK
 EditAction 1446216904032 PlanetExplorer.java 2402 5 10 0
+RefactoringAction 1446216935990 TestPlanetExplorer.java ADD void testMove_Forward_Return0_1()/2 METHOD
+EditAction 1446216944476 TestPlanetExplorer.java 1761 9 24 8

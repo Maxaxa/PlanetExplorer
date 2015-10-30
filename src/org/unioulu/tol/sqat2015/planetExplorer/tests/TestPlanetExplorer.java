@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	PlanetExplorer explorerNoObs;
 	@Before
 	public void setup(){
-		explorerNoObs = new PlanetExplorer(100,100,"");
+		explorerNoObs = new PlanetExplorer(3,3,"");
 	}
 
 	@Test
@@ -49,6 +49,12 @@ public class TestPlanetExplorer {
 		explorerNoObs.executeCommand("ll");
 		char facing = explorerNoObs.getFacing();
 		assertEquals('S', facing);
+	}
+	@Test
+	public void testMove_Forward_Return0_1(){
+		explorerNoObs.executeCommand("f");
+		String position = explorerNoObs.getPosition();
+		assertEquals("0,1", position);
 	}
 	@Test
 	public void testMove_Forward_Return0_1(){
