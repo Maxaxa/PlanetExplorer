@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testGetPositionStartposition_return0_0() {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
-		String position = explorer.getPosition(explorer);
+		String position = explorer.getPosition();
 		assertEquals("0,0", position);
 	}
 }

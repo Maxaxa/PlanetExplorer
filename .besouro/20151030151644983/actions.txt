@@ -33,3 +33,5 @@ RefactoringAction 1446212623567 PlanetExplorer.java ADD int positiony FIELD
 RefactoringAction 1446212632695 PlanetExplorer.java RENAME getPosition(PlanetExplorer)=>String getPosition() METHOD
 EditAction 1446212672601 PlanetExplorer.java 1496 3 3 0
 EditAction 1446212672945 TestPlanetExplorer.java 442 1 3 1
+CompilationAction 1446212673687 TestPlanetExplorer.java
+EditAction 1446212680548 TestPlanetExplorer.java 434 1 3 1
