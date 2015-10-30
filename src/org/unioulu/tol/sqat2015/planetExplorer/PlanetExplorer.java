@@ -14,8 +14,8 @@ public class PlanetExplorer {
 	 */
 		grid = new int[x][y];
 	}
-	int positionx = 0;
-	int positiony = 0;
+	int positionx;
+	int positiony;
 	int facing;
 	
 	public String executeCommand(String command){
