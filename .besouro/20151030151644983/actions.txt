@@ -79,3 +79,6 @@ RefactoringAction 1446213645227 TestPlanetExplorer.java ADD import org.junit.Bef
 RefactoringAction 1446213703738 TestPlanetExplorer.java ADD PlanetExplorer explorerNoObs FIELD
 RefactoringAction 1446213759748 PlanetExplorer.java ADD int FIELD
 EditAction 1446213769234 TestPlanetExplorer.java 800 4 6 2
+UnitTestCaseAction 1446213772489 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446213772489 TestPlanetExplorer OK
+EditAction 1446213799609 TestPlanetExplorer.java 806 4 6 2

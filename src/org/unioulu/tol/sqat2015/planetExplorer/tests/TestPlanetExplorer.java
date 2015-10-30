@@ -28,7 +28,7 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void testTurn_Right_ReturnW(){
-		
+		false;
 	}
 	
 }
