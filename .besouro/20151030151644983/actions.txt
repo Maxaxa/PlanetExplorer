@@ -204,3 +204,6 @@ RefactoringAction 1446216363373 TestPlanetExplorer.java RENAME testMove_ForwardF
 RefactoringAction 1446216416118 TestPlanetExplorer.java RENAME testMove_ForwardFacingW_Return0_1()=>void testMove_Forward_Return0_1() METHOD
 EditAction 1446216465589 TestPlanetExplorer.java 1588 8 21 7
 EditAction 1446216476064 TestPlanetExplorer.java 1587 8 21 7
+UnitTestCaseAction 1446216476848 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446216476852 TestPlanetExplorer FAIL
+EditAction 1446216776697 PlanetExplorer.java 2332 5 10 0

@@ -34,6 +34,11 @@ public class PlanetExplorer {
 			if (SingleCommand == 'r' || SingleCommand == 'l'){
 				turn(SingleCommand);
 			}
+			if(SingleCommand == 'f'){
+				if(getFacing() == 'N' || getFacing() == 'S' ){
+					positiony++;
+				}
+			}
 		}
 		
 		return null;
