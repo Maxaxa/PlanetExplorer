@@ -32,6 +32,8 @@ public class PlanetExplorer {
 		if (command == "r"){
 			facing = facing+1;
 			
+		}else if (command == "l"){
+			facing = facing -1;
 		}
 		
 		return null;

@@ -110,3 +110,6 @@ RefactoringAction 1446214677928 TestPlanetExplorer.java RENAME testTurn_Left_Ret
 RefactoringAction 1446214685455 TestPlanetExplorer.java RENAME testTurn_Left_Return()=>void testTurn_Left_ReturnE() METHOD
 EditAction 1446214700069 TestPlanetExplorer.java 1071 5 12 4
 EditAction 1446214703565 PlanetExplorer.java 1886 4 8 0
+UnitTestCaseAction 1446214706162 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446214706163 TestPlanetExplorer FAIL
+EditAction 1446214756699 PlanetExplorer.java 1940 4 8 0
