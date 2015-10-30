@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	PlanetExplorer explorerNoObs;
 	@Before
 	public void setup(){
-		explorerNoObs = new PlanetExplorer(3,3,"");
+		explorerNoObs = new PlanetExplorer(2,2,"");
 	}
 
 	@Test
