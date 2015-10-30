@@ -220,3 +220,6 @@ CompilationAction 1446216961104 TestPlanetExplorer.java
 UnitTestCaseAction 1446216962263 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446216962263 TestPlanetExplorer.testMove_ForwardForward_Return0_2 OK
 EditAction 1446216967661 TestPlanetExplorer.java 1769 9 24 8
+UnitTestCaseAction 1446216969022 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446216969022 TestPlanetExplorer FAIL
+EditAction 1446216974070 TestPlanetExplorer.java 1769 9 24 8
