@@ -52,7 +52,7 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void testMove_Forward_Return0_1(){
-		explorerNoObs.executeCommand("rr");
+		explorerNoObs.executeCommand("f");
 		String position = explorerNoObs.getPosition();
 		assertEquals("0,1", position);
 	}
