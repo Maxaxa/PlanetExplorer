@@ -275,3 +275,14 @@ RefactoringAction 1446217893913 PlanetExplorer.java REMOVE x FIELD
 RefactoringAction 1446217897457 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1446217904790 PlanetExplorer.java ADD int y FIELD
 EditAction 1446217923175 PlanetExplorer.java 2800 6 12 0
+CompilationAction 1446217923668 PlanetExplorer.java
+CompilationAction 1446217923670 PlanetExplorer.java
+CompilationAction 1446217923670 PlanetExplorer.java
+CompilationAction 1446217923670 PlanetExplorer.java
+CompilationAction 1446217940856 PlanetExplorer.java
+CompilationAction 1446217940857 PlanetExplorer.java
+CompilationAction 1446217940857 PlanetExplorer.java
+CompilationAction 1446217940859 PlanetExplorer.java
+UnitTestCaseAction 1446217943420 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446217943440 TestPlanetExplorer FAIL
+EditAction 1446217988333 PlanetExplorer.java 2820 6 13 0

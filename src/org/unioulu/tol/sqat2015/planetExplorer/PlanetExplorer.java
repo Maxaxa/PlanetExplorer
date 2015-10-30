@@ -50,7 +50,9 @@ public class PlanetExplorer {
 		if(SingleCommand == 'f'){
 			if(getFacing() == 'N' || getFacing() == 'S' ){
 				positiony++;
-				if(positiony> explorer.x)
+				if(positiony> x){
+					positiony = 0;
+				}
 			}
 			if(getFacing() == 'W' || getFacing() == 'E' ){
 				positionx++;
