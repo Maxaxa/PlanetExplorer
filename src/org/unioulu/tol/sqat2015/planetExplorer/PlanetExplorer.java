@@ -53,7 +53,7 @@ public class PlanetExplorer {
 			break;
 		case 2: facingChar = 'S';
 			break;
-		case 3: facingChar = 'O';
+		case 3: facingChar = 'E';
 			break;
 		}
 		
