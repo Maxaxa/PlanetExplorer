@@ -38,5 +38,11 @@ public class TestPlanetExplorer {
 		char facing = explorerNoObs.getFacing();
 		assertEquals('E', facing);
 	}
+	@Test
+	public void testTurn_RightRight_ReturnS(){
+		explorerNoObs.executeCommand("rr");
+		char facing = explorerNoObs.getFacing();
+		assertEquals('S', facing);
+	}
 	
 }

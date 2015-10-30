@@ -163,3 +163,10 @@ UnitTestCaseAction 1446215444380 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446215444381 TestPlanetExplorer OK
 RefactoringAction 1446215496341 PlanetExplorer.java ADD void turn(String) METHOD
 EditAction 1446215585660 PlanetExplorer.java 2100 5 9 0
+UnitTestCaseAction 1446215589028 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446215589029 TestPlanetExplorer OK
+RefactoringAction 1446215608418 TestPlanetExplorer.java ADD void testTurn_Left_ReturnE()/2 METHOD
+RefactoringAction 1446215616521 TestPlanetExplorer.java RENAME testTurn_Left_ReturnE()/2=>void testTurn_Right_ReturnE() METHOD
+RefactoringAction 1446215618075 TestPlanetExplorer.java RENAME testTurn_Right_ReturnE()=>void testTurn_RightRight_ReturnE() METHOD
+RefactoringAction 1446215626607 TestPlanetExplorer.java RENAME testTurn_RightRight_ReturnE()=>void testTurn_RightRight_ReturnS() METHOD
+EditAction 1446215660437 TestPlanetExplorer.java 1241 6 15 5
