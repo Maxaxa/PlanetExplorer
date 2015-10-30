@@ -38,3 +38,20 @@ EditAction 1446212680548 TestPlanetExplorer.java 434 1 3 1
 UnitTestCaseAction 1446212681824 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1446212681825 TestPlanetExplorer FAIL
 EditAction 1446212694442 PlanetExplorer.java 1500 3 3 0
+UnitTestCaseAction 1446212697293 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446212697295 TestPlanetExplorer OK
+RefactoringAction 1446213071364 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1446213083999 TestPlanetExplorer.java RENAME test=>void testGet FIELD
+RefactoringAction 1446213086527 TestPlanetExplorer.java RENAME testGet=>void testGetFacing FIELD
+RefactoringAction 1446213092552 TestPlanetExplorer.java RENAME testGetFacing=>void testGetFacingStart FIELD
+RefactoringAction 1446213095347 TestPlanetExplorer.java RENAME testGetFacingStart=>void testGetFacingStartposition FIELD
+RefactoringAction 1446213107489 TestPlanetExplorer.java RENAME testGetPositionStartposition_return0_0()=>void testGetPositionStartingosition_return0_0() METHOD
+RefactoringAction 1446213108552 TestPlanetExplorer.java RENAME testGetPositionStartingosition_return0_0()=>void testGetPositionStartingPosition_return0_0() METHOD
+RefactoringAction 1446213113087 TestPlanetExplorer.java RENAME testGetFacingStartposition=>void testGetFacingStartingposition FIELD
+RefactoringAction 1446213115616 TestPlanetExplorer.java RENAME testGetFacingStartingposition=>void testGetFacingStartingPosition FIELD
+RefactoringAction 1446213123788 TestPlanetExplorer.java RENAME testGetFacingStartingPosition=>void testGetFacingStartingPosition_ FIELD
+RefactoringAction 1446213125315 TestPlanetExplorer.java RENAME testGetFacingStartingPosition_=>void testGetFacingStartingPosition_re FIELD
+RefactoringAction 1446213126847 TestPlanetExplorer.java RENAME testGetFacingStartingPosition_re=>void testGetFacingStartingPosition_return FIELD
+RefactoringAction 1446213128377 TestPlanetExplorer.java RENAME testGetFacingStartingPosition_return=>void testGetFacingStartingPosition_returnN FIELD
+RefactoringAction 1446213335367 PlanetExplorer.java ADD char getFacing() METHOD
+EditAction 1446213337331 PlanetExplorer.java 1614 4 5 0

@@ -11,7 +11,7 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		
+		int[][] grid = new int[x][y];
 	}
 	int positionx = 0;
 	int positiony = 0;
@@ -34,5 +34,10 @@ public class PlanetExplorer {
 	public String getPosition() {
 		String position = positionx + "," + positiony;
 		return position;
+	}
+
+	public char getFacing() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }
