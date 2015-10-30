@@ -30,9 +30,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		char[] commandArray = command.toCharArray();
-		for(char i :commandArray){
-			if (command == "r" || command == "l"){
-				turn(command);
+		for(char SingleCommand :commandArray){
+			if (SingleCommand == 'r' || SingleCommand == 'l'){
+				turn(SingleCommand);
 			}
 		}
 		
@@ -40,11 +40,11 @@ public class PlanetExplorer {
 	}
 
 
-	private void turn(String command) {
-		if (command == "r"){
+	private void turn(char command) {
+		if (command == 'r'){
 			facing = (facing+1)%4;
 			
-		}else if (command == "l"){
+		}else if (command == 'l'){
 			facing = facing-1;
 			if(facing<0){
 				facing = facing +4;

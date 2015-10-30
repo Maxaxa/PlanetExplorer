@@ -175,3 +175,14 @@ UnitTestSessionAction 1446215664334 TestPlanetExplorer FAIL
 RefactoringAction 1446215852182 PlanetExplorer.java ADD void foreach() METHOD
 RefactoringAction 1446215853517 PlanetExplorer.java REMOVE foreach() METHOD
 EditAction 1446216008336 PlanetExplorer.java 2190 5 10 0
+UnitTestCaseAction 1446216009883 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446216009883 TestPlanetExplorer FAIL
+RefactoringAction 1446216157316 PlanetExplorer.java RENAME turn(String)=>void turn(C) METHOD
+RefactoringAction 1446216158634 PlanetExplorer.java RENAME turn(C)=>void turn(Char) METHOD
+RefactoringAction 1446216175005 PlanetExplorer.java RENAME turn(Char)=>void turn(char) METHOD
+UnitTestCaseAction 1446216178716 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446216178716 TestPlanetExplorer OK
+RefactoringAction 1446216227776 TestPlanetExplorer.java ADD void testTurn_RightRight_ReturnS()/2 METHOD
+RefactoringAction 1446216253811 TestPlanetExplorer.java RENAME testTurn_RightRight_ReturnS()/2=>void testTurn__ReturnS() METHOD
+RefactoringAction 1446216257340 TestPlanetExplorer.java RENAME testTurn__ReturnS()=>void testTurn_LeftLeft_ReturnS() METHOD
+EditAction 1446216264718 TestPlanetExplorer.java 1409 7 18 6
