@@ -30,10 +30,13 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if (command == "r"){
-			facing = facing+1;
+			facing = (facing+1)%4;
 			
 		}else if (command == "l"){
-			facing = ((-1)%4);
+			facing = facing-1;
+			if(facing<0){
+				facing = facing +4;
+			}
 			System.out.println(facing);
 		}
 		
