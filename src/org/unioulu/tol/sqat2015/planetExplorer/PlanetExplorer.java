@@ -41,6 +41,16 @@ public class PlanetExplorer {
 				if(getFacing() == 'W' || getFacing() == 'E' ){
 					positionx++;
 				}
+				
+			}
+			if(SingleCommand == 'b'){
+				if(getFacing() == 'N' || getFacing() == 'S' ){
+					positiony--;
+				}
+				if(getFacing() == 'W' || getFacing() == 'E' ){
+					positionx--;
+				}
+				
 			}
 		}
 		
