@@ -16,7 +16,7 @@ public class PlanetExplorer {
 	}
 	int positionx = 0;
 	int positiony = 0;
-	int facing = 0;
+	int facing;
 	
 	public String executeCommand(String command){
 		
