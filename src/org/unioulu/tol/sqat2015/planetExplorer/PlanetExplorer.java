@@ -34,6 +34,7 @@ public class PlanetExplorer {
 			
 		}else if (command == "l"){
 			facing = facing-1;
+			System.out.println(facing);
 		}
 		
 		return null;
