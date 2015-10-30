@@ -213,3 +213,10 @@ UnitTestSessionAction 1446216859133 TestPlanetExplorer OK
 EditAction 1446216904032 PlanetExplorer.java 2402 5 10 0
 RefactoringAction 1446216935990 TestPlanetExplorer.java ADD void testMove_Forward_Return0_1()/2 METHOD
 EditAction 1446216944476 TestPlanetExplorer.java 1761 9 24 8
+CompilationAction 1446216945733 TestPlanetExplorer.java
+RefactoringAction 1446216954793 TestPlanetExplorer.java RENAME testMove_Forward_Return0_1()/2=>void testMove_ForwardForward_Return0_1() METHOD
+RefactoringAction 1446216957331 TestPlanetExplorer.java RENAME testMove_ForwardForward_Return0_1()=>void testMove_ForwardForward_Return0_2() METHOD
+CompilationAction 1446216961104 TestPlanetExplorer.java
+UnitTestCaseAction 1446216962263 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446216962263 TestPlanetExplorer.testMove_ForwardForward_Return0_2 OK
+EditAction 1446216967661 TestPlanetExplorer.java 1769 9 24 8
