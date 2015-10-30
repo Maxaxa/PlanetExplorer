@@ -89,3 +89,6 @@ CompilationAction 1446213823836 TestPlanetExplorer.java
 UnitTestCaseAction 1446213827711 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1446213827712 TestPlanetExplorer FAIL
 EditAction 1446213903711 TestPlanetExplorer.java 908 4 9 3
+RefactoringAction 1446214080882 PlanetExplorer.java ADD void changeFacing() METHOD
+RefactoringAction 1446214110224 PlanetExplorer.java REMOVE changeFacing() METHOD
+EditAction 1446214460291 PlanetExplorer.java 1885 4 8 0

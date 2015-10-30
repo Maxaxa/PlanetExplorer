@@ -16,7 +16,7 @@ public class PlanetExplorer {
 	}
 	int positionx = 0;
 	int positiony = 0;
-	char facing = 'N';
+	int facing = 0;
 	
 	public String executeCommand(String command){
 		
@@ -29,9 +29,13 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		if (command == "r"){
+			facing = facing++;
+		}
 		
 		return null;
 	}
+	
 
 	public String getPosition() {
 		String position = positionx + "," + positiony;
@@ -39,7 +43,19 @@ public class PlanetExplorer {
 	}
 
 	public char getFacing() {
+		char facingChar = 'z';
 		
-		return facing;
+		switch (facing){
+		case 0: facingChar = 'N';
+			break;
+		case 1: facingChar = 'W';
+			break;
+		case 2: facingChar = 'S';
+			break;
+		case 3: facingChar = 'O';
+			break;
+		}
+		
+		return facingChar;
 	}
 }
