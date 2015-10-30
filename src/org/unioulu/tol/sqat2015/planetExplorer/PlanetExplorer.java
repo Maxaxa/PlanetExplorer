@@ -34,7 +34,7 @@ public class PlanetExplorer {
 		for(char SingleCommand :commandArray){
 			if (SingleCommand == 'r' || SingleCommand == 'l'){
 				turn(SingleCommand);
-			}
+			}else if(SingleCommand == 'f' || SingleCommand == 'b')
 			move(SingleCommand);
 		}
 		
