@@ -63,8 +63,8 @@ public class TestPlanetExplorer {
 		assertEquals("0,2", position);
 	}
 	@Test
-	public void testMove_ForwardBackward_Return0_1(){
-		explorerNoObs.executeCommand("fb");
+	public void testMove_ForwardForwardBackward_Return0_1(){
+		explorerNoObs.executeCommand("ffb");
 		String position = explorerNoObs.getPosition();
 		assertEquals("0,1", position);
 	}
