@@ -56,3 +56,26 @@ RefactoringAction 1446213128377 TestPlanetExplorer.java RENAME testGetFacingStar
 RefactoringAction 1446213335367 PlanetExplorer.java ADD char getFacing() METHOD
 EditAction 1446213337331 PlanetExplorer.java 1614 4 5 0
 EditAction 1446213339904 TestPlanetExplorer.java 637 2 6 2
+UnitTestCaseAction 1446213341898 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1446213341899 TestPlanetExplorer FAIL
+RefactoringAction 1446213412733 PlanetExplorer.java ADD char facing FIELD
+UnitTestCaseAction 1446213473670 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446213473671 TestPlanetExplorer OK
+RefactoringAction 1446213531221 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1446213536261 TestPlanetExplorer.java RENAME test=>void testTurn FIELD
+RefactoringAction 1446213538291 TestPlanetExplorer.java RENAME testTurn=>void testTurnL FIELD
+RefactoringAction 1446213539830 TestPlanetExplorer.java RENAME testTurnL=>void testTurnLeft FIELD
+RefactoringAction 1446213546354 TestPlanetExplorer.java RENAME testTurnLeft=>void testTurn FIELD
+RefactoringAction 1446213560891 TestPlanetExplorer.java RENAME testTurn=>void testTurn_ FIELD
+RefactoringAction 1446213562452 TestPlanetExplorer.java RENAME testTurn_=>void testTurn_Left FIELD
+RefactoringAction 1446213570485 TestPlanetExplorer.java RENAME testTurn_Left=>void testTurn_ FIELD
+RefactoringAction 1446213572530 TestPlanetExplorer.java RENAME testTurn_=>void testTurn_Right FIELD
+RefactoringAction 1446213575565 TestPlanetExplorer.java RENAME testTurn_Right=>void testTurn_Right_ FIELD
+RefactoringAction 1446213578595 TestPlanetExplorer.java RENAME testTurn_Right_=>void testTurn_Right_Return FIELD
+RefactoringAction 1446213590207 TestPlanetExplorer.java RENAME testTurn_Right_Return=>void testTurn_Right_ReturnW FIELD
+RefactoringAction 1446213594332 TestPlanetExplorer.java RENAME testTurn_Right_ReturnW=>void testTurn_Right_ReturnW() METHOD
+RefactoringAction 1446213637405 TestPlanetExplorer.java ADD void setup() METHOD
+RefactoringAction 1446213645227 TestPlanetExplorer.java ADD import org.junit.Before IMPORT
+RefactoringAction 1446213703738 TestPlanetExplorer.java ADD PlanetExplorer explorerNoObs FIELD
+RefactoringAction 1446213759748 PlanetExplorer.java ADD int FIELD
+EditAction 1446213769234 TestPlanetExplorer.java 800 4 6 2
