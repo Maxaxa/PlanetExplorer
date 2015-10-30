@@ -249,3 +249,7 @@ EditAction 1446217327721 PlanetExplorer.java 2610 5 10 0
 UnitTestCaseAction 1446217328967 TestPlanetExplorer.java OK
 UnitTestSessionAction 1446217328968 TestPlanetExplorer OK
 EditAction 1446217360951 PlanetExplorer.java 2610 5 10 0
+UnitTestCaseAction 1446217363428 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446217363429 TestPlanetExplorer OK
+RefactoringAction 1446217380221 PlanetExplorer.java ADD void move(char) METHOD
+EditAction 1446217380225 PlanetExplorer.java 2668 6 11 0

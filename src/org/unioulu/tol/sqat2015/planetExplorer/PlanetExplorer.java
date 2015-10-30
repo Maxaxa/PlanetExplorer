@@ -35,26 +35,31 @@ public class PlanetExplorer {
 			if (SingleCommand == 'r' || SingleCommand == 'l'){
 				turn(SingleCommand);
 			}
-			if(SingleCommand == 'f'){
-				if(getFacing() == 'N' || getFacing() == 'S' ){
-					positiony++;
-				}
-				if(getFacing() == 'W' || getFacing() == 'E' ){
-					positionx++;
-				}
-				
-			}else if(SingleCommand == 'b'){
-				if(getFacing() == 'N' || getFacing() == 'S' ){
-					positiony--;
-				}
-				if(getFacing() == 'W' || getFacing() == 'E' ){
-					positionx--;
-				}
-				
-			}
+			move(SingleCommand);
 		}
 		
 		return null;
+	}
+
+
+	private void move(char SingleCommand) {
+		if(SingleCommand == 'f'){
+			if(getFacing() == 'N' || getFacing() == 'S' ){
+				positiony++;
+			}
+			if(getFacing() == 'W' || getFacing() == 'E' ){
+				positionx++;
+			}
+			
+		}else if(SingleCommand == 'b'){
+			if(getFacing() == 'N' || getFacing() == 'S' ){
+				positiony--;
+			}
+			if(getFacing() == 'W' || getFacing() == 'E' ){
+				positionx--;
+			}
+			
+		}
 	}
 
 
