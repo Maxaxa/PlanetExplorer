@@ -243,3 +243,6 @@ UnitTestCaseAction 1446217286325 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1446217286327 TestPlanetExplorer FAIL
 RefactoringAction 1446217308506 TestPlanetExplorer.java RENAME testMove_ForwardBackward_Return0_1()=>void testMove_ForwardForwardBackward_Return0_1() METHOD
 EditAction 1446217313639 TestPlanetExplorer.java 1964 10 27 9
+UnitTestCaseAction 1446217314526 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446217314526 TestPlanetExplorer OK
+EditAction 1446217327721 PlanetExplorer.java 2610 5 10 0
