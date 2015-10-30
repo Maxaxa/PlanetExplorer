@@ -186,3 +186,20 @@ RefactoringAction 1446216227776 TestPlanetExplorer.java ADD void testTurn_RightR
 RefactoringAction 1446216253811 TestPlanetExplorer.java RENAME testTurn_RightRight_ReturnS()/2=>void testTurn__ReturnS() METHOD
 RefactoringAction 1446216257340 TestPlanetExplorer.java RENAME testTurn__ReturnS()=>void testTurn_LeftLeft_ReturnS() METHOD
 EditAction 1446216264718 TestPlanetExplorer.java 1409 7 18 6
+UnitTestCaseAction 1446216265635 TestPlanetExplorer.java OK
+UnitTestSessionAction 1446216265636 TestPlanetExplorer OK
+RefactoringAction 1446216271610 TestPlanetExplorer.java ADD void testTurn_RightRight_ReturnS()/2 METHOD
+RefactoringAction 1446216282425 TestPlanetExplorer.java RENAME testTurn_RightRight_ReturnS()/2=>void testMove_RightRight_ReturnS() METHOD
+RefactoringAction 1446216296007 TestPlanetExplorer.java RENAME testMove_RightRight_ReturnS()=>void testMove_Forward_ReturnS() METHOD
+RefactoringAction 1446216332267 TestPlanetExplorer.java RENAME testMove_Forward_ReturnS()=>void testMove_RightForward_ReturnS() METHOD
+RefactoringAction 1446216334806 TestPlanetExplorer.java RENAME testMove_RightForward_ReturnS()=>void testMove_Forward_ReturnS() METHOD
+RefactoringAction 1446216340846 TestPlanetExplorer.java RENAME testMove_Forward_ReturnS()=>void testMove_ForwardFacing_ReturnS() METHOD
+RefactoringAction 1446216344383 TestPlanetExplorer.java RENAME testMove_ForwardFacing_ReturnS()=>void testMove_ForwardFacingg_ReturnS() METHOD
+RefactoringAction 1446216345407 TestPlanetExplorer.java RENAME testMove_ForwardFacingg_ReturnS()=>void testMove_ForwardFacing_ReturnS() METHOD
+RefactoringAction 1446216346435 TestPlanetExplorer.java RENAME testMove_ForwardFacing_ReturnS()=>void testMove_ForwardFacingW_ReturnS() METHOD
+RefactoringAction 1446216352472 TestPlanetExplorer.java RENAME testMove_ForwardFacingW_ReturnS()=>void testMove_ForwardFacingW_Return() METHOD
+RefactoringAction 1446216358758 TestPlanetExplorer.java RENAME testMove_ForwardFacingW_Return()=>void testMove_ForwardFacingW_Return0() METHOD
+RefactoringAction 1446216359792 TestPlanetExplorer.java RENAME testMove_ForwardFacingW_Return0()=>void testMove_ForwardFacingW_Return0 FIELD
+RefactoringAction 1446216363373 TestPlanetExplorer.java RENAME testMove_ForwardFacingW_Return0()=>void testMove_ForwardFacingW_Return0 FIELD
+RefactoringAction 1446216416118 TestPlanetExplorer.java RENAME testMove_ForwardFacingW_Return0_1()=>void testMove_Forward_Return0_1() METHOD
+EditAction 1446216465589 TestPlanetExplorer.java 1588 8 21 7

@@ -50,5 +50,11 @@ public class TestPlanetExplorer {
 		char facing = explorerNoObs.getFacing();
 		assertEquals('S', facing);
 	}
+	@Test
+	public void testMove_Forward_Return0_1(){
+		explorerNoObs.executeCommand("rr");
+		String position = explorerNoObs.getPosition();
+		assertEquals("0,1", position);
+	}
 	
 }
